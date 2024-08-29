@@ -1,6 +1,7 @@
 body {
     background-color: black;
     height: 100vh;
+    margin: 0;
 }
 
 .header {
@@ -8,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width:max-content;
     flex-direction: column;
 }
 
