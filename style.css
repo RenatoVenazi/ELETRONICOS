@@ -34,6 +34,6 @@ body {
 .folders img:hover {
     transform: scale(1.1);
     transition: 300ms ease-in;
-    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow:  black 4px 4px 15px 0px;
     cursor: pointer;
     }
