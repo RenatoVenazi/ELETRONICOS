@@ -42,6 +42,7 @@ body {
         width: 180px;
         border: 2px red solid;
         background-color: transparent;
+        color: white;
     }
 
     .btn :hover {
@@ -56,6 +57,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        justify-content: center;
     }
     .paragrafobutton {
         font-size: 22px;
