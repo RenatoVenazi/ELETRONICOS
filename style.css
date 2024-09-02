@@ -31,9 +31,9 @@ body {
     border-radius: 15px;
     }
 
-.folders img :hover {
+.folders img:hover {
     transform: scale(1.1);
-    transition: 300ms ease;
+    transition: 300ms ease-in;
     box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
     }
