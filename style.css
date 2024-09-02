@@ -34,6 +34,31 @@ body {
 .folders img:hover {
     transform: scale(1.1);
     transition: 300ms ease-in;
-    box-shadow:  black 4px 4px 15px 0px;
     cursor: pointer;
+    }
+
+    .btn {
+        height: 40px;
+        width: 180px;
+        border: 2px red solid;
+        background-color: transparent;
+    }
+
+    .btn :hover {
+        transform: scale(1.1);
+        transition: all ease 300ms; 
+        background-color: red;
+        cursor: pointer;
+    }
+
+    .forms {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .paragrafobutton {
+        font-size: 22px;
+        color: white;
+        font-weight: bold;
     }
